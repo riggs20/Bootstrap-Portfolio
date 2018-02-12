@@ -1,143 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>About Me</title>
+    <meta charset="UTF-8">
 
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Work+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Reset Stylesheet -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Import Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Work+Sans" rel="stylesheet">
+    <!-- Fontawesome Icon -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Bootswatch CSS Link -->
+    <link rel="stylesheet" href="assets/css/bootswatch.css">
+    <!-- My CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> -->
+    <!-- Materialize -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+    <!-- Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
 </head>
+
 <body>
+    <div class="container">
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="navbar-brand">Pauletta Riggs</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="navbar-collapse collapse show" id="navbarColor02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of navigation bar -->
+        <hr>
 
-	<div class="container-fluid">
+        <div class="row">
 
-		<div class="page-header">
-			<h1 id="page-header-name">Pauletta Riggs</h1>
-			<div class="navbar page-header-nav">
-				<ul class="nav nav-tabs">
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="index.html">About</a></li>
-				</ul>
+            <!-- Main section -->
+            <div class="col-lg-2">
+                <img src="assets/images/priggs_image.jpeg" alt="Pauletta_Riggs" class="img-thumbnail">
+            </div>
+            <div class="col-lg-7">
+                <h2>About Me</h2>
+                <p>I grew up on the Navajo Nation in a small town on the southwest corner of the reservation. Leupp, Arizona is located about 50 miles northeast of Flagstaff, Arizona and 30 miles northwest of Winslow, Arizona. I attended Winslow High School, living in a dormitory for four years. Then after graduating from high school, I moved to Phoenix, Arizona to attend Arizona State University.</p>
+                <p>While still a student at ASU, I began working for the athletic department, specificially within their human resources office. I have worked for ASU for eighteen years. I suppose I stayed at ASU for so many years because I work with great people and have had excellent bosses. Not to mention, the perks are great, I get to attend football, basketball and baseball games for free. Working for a university also allowed me to complete my undergraduate degree in Interdisciplinary Studies (concentrations in Informatics and Business).</p>
+                <p>Although I do not have children of my own, I have three, beautiful grandchildren who are my world (in my culture they are referred to as my grandchildren but you would probably refer to them as my great-nieces). The oldest is nearly 3 years old, while the two younger ones are 11 months and 9 months old.</p>
+                <p>Below are some of my favorite things:</p>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i> Pearl Jam</li>
+                    <li><i class="fas fa-angle-right"></i> Foo Fighters</li>
+                    <li><i class="fas fa-angle-right"></i> Historical fiction books</li>
+                    <li><i class="fas fa-angle-right"></i> Jane Austen novels</li>
+                    <li><i class="fas fa-angle-right"></i> Outlander Series by Diana Gabaldon</li>
+                    <li><i class="fas fa-angle-right"></i> Ready Player One by Ernest Cline</li>
+                    <li><i class="fas fa-angle-right"></i> The Martian by Andy Weir</li>
+                    <li><i class="fas fa-angle-right"></i> The Help by Kathryn Stockett</li>
+                    <li><i class="fas fa-angle-right"></i> The Nightingale by Kristen Hannah</li>
+                    <li><i class="fas fa-angle-right"></i> Big Bang Theory</li>
+                    <li><i class="fas fa-angle-right"></i> Game of Thrones</li>
+                    <li><i class="fas fa-angle-right"></i> Downton Abbey and other british-themed shows</li>
+                </ul>
+            </div>
+            <!-- End of main section -->
 
-			</div>
-		</div>
+            <!-- Links to External Accounts -->
+            <div class="col-lg-3">
+                <div class="card border-dark mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Connect with me</div>
+                    <div class="card-body text-dark">
+                        <a href="https://www.linkedin.com/in/pauletta-riggs-971412149" class="thumbnail" target="_blank">
+                            <img src="assets/images/linkedin.png" alt="linkedin">
+                        </a>
+                        <a href="https://github.com/riggs20" class="thumbnail" target="_blank">
+                            <img src="assets/images/github.png" alt="github">
+                        </a>
+                        <a href="https://stackoverflow.com/users/8730087/pauletta-riggs" class="thumbnail" target="_blank">
+                            <img src="assets/images/stackoverflow.png" alt="stackoverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of links to external accounts -->
 
-		<!-- <nav class="navbar navbar-default"> -->
+        </div>
 
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<!-- <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> -->
-						<!-- <span class="sr-only">Toggle navigation</span> -->
-						<!-- <span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<h1>Pauletta Riggs </h1>
-				</div> -->
+    </div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="index.html">About</a></li>
- 					</ul>
-				</div>/.navbar-collapse -->
-		<!-- </nav> -->
-	</div>
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="text-muted"><i class="far fa-copyright"></i> 2018 Pauletta Riggs</p>
+        </div>
+    </footer>
 
-
-	<div class="container">
-
-		<div class="row">
-
-			<div class="col-lg-8">
-
-				<div class="page-header">
-					<h2>About Me</h2>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-3">
-						<img src="assets/images/priggs_image.jpeg" alt="Pauletta_Riggs" class="img-thumbnail">
-					</div>
-					<div class="col-lg-9">
-						<p>I grew up on the Navajo Nation in a small town on the southwest corner of the reservation. Leupp, Arizona is located about 50 miles northeast of Flagstaff, Arizona and 30 miles northwest of Winslow, Arizona. I attended Winslow High School, living in a dormitory for four years. Then after graduating from high school, I moved to Phoenix, Arizona to attend Arizona State University.</p>
-
-						<p>While still a student at ASU, I began working for the athletic department, specificially within their human resources office. I have worked for ASU for eighteen years. I suppose I stayed at ASU for so many years because I work with great people and have had excellent bosses. Not to mention, the perks are great, I get to attend football, basketball and baseball games for free. Working for a university also allowed me to complete my undergraduate degree in Interdisciplinary Studies (concentrations in Informatics and Business).</p>
-
-						<p>Although I do not have children of my own, I have three, beautiful grandchildren who are my world (in my culture they are referred to as my grandchildren but you would probably refer to them as my great-nieces). The oldest is nearly 3 years old, while the two younger ones are 11 months and 9 months old.</p>
-
-						<p>Below are some of my favorite things:</p>
-
-							<ul>
-								<li>Pearl Jam</li>
-								<li>Foo Fighters</li>
-								<li>Historical fiction books</li>
-								<li>Jan Austen novels</li>
-								<li>Outlander Series by Diana Gabaldon</li>
-								<li>Ready Player One by Ernest Cline</li>
-								<li>The Martian by Andy Weir</li>
-								<li>The Help by Kathryn Stockett</li>
-								<li>The Nightingale by Kristen Hannah</li>
-								<li>Big Bang Theory</li>
-								<li>Game of Thrones</li>
-								<li>Downton Abbey and other british-themed shows</li>
-							</ul>
-						<br>
-					</div>
-				</div>
-		
-			</div>
-
-			<div class="col-lg-4">
-
-				<div class="panel panel-default">
-
-					<div class="panel-heading">
-						<h3 class="panel-title">Connect with Me</h3>
-					</div>
-
-					<div class="row">
-						<div class="panel-body">
-							<div class="col-lg-4">
-								<a href="https://www.linkedin.com/in/pauletta-riggs-971412149" class="thumbnail" target="_blank">
-									<img src="assets/images/linkedin.png" alt="linkedin">
-								</a>
-							</div>
-
-							<div class="col-lg-4">
-								<a href="https://github.com/riggs20" class="thumbnail" target="_blank">
-									<img src="assets/images/github.png" alt="github">
-								</a>
-							</div>
-
-							<div class="col-lg-4">
-								<a href="https://stackoverflow.com/users/8730087/pauletta-riggs" class="thumbnail" target="_blank">
-									<img src="assets/images/stackoverflow.png" alt="stackoverflow">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer class="navbar-default navbar-fixed-bottom">
-		<div class="container-fluid text-center">
-			<span>&copy; Copyright 2017 Pauletta Riggs</span>
-		</div>
-	</footer>
-
-	  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Materialize JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 </body>
 </html>
